@@ -1,10 +1,2 @@
-import './styles.css';
 
-import { Todo, TodoList } from './classes/index';
-import { crearTodoHtml } from './js/componentes';
-
-export const todoList = new TodoList();
-
-todoList.cargarLocalStorage();
-
-todoList.todos.forEach( crearTodoHtml );
+console.log('Plantilla');
